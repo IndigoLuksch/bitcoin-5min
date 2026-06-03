@@ -1,3 +1,4 @@
+*Written by Claude*
 # Bitcoin 5-Minute Up/Down Trader
 
 A systematic trading bot for [Polymarket](https://polymarket.com) BTC 5-minute Up/Down prediction markets. Prices each market using a Geometric Brownian Motion (GBM) fair-value model calibrated with live Binance volatility data, then trades when a sufficient edge exists between the model and market prices.
