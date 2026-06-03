@@ -21,10 +21,12 @@ Thumbs.db
 # Log files
 *.log
 
-# Data Output Directories (These contain potentially large amounts of derived data)
+# Data Output Directories
 market_data/
 event_details/
 market_details/
+cache/
+output/
 
 # Output TSV file (derived data)
 polymarket_data.tsv
@@ -33,6 +35,5 @@ polymarket_data.tsv
 .idea/
 .vscode/
 *.swp
-*~ 
-# SpecStory explanation file
+*~
 .specstory/.what-is-this.md
